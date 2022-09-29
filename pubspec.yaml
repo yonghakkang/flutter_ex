@@ -31,7 +31,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flip_card: ^0.6.0
+  fade_out_particle: ^1.2.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -89,3 +90,31 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Cheeky
+      fonts:
+        - asset: assets/fonts/Cheeky_Rabbit.ttf
+    - family: Porkys
+      fonts:
+        - asset: assets/fonts/PORKYS_.TTF
+    - family: Pesta
+      fonts:
+        - asset: assets/fonts/PestaTahunBaru.ttf
+    - family: hugs
+      fonts:
+        - asset: assets/fonts/HugsPersonalUseBold-Eaedj.ttf
+    - family: helloketta
+      fonts:
+        - asset: assets/fonts/HelloKetta-d99oX.ttf
+    - family: honeybee
+      fonts:
+        - asset: assets/fonts/Honeybeeregular-MG0p.ttf
+    - family: lovelyhome
+      fonts:
+        - asset: assets/fonts/LovelyHome-9aBZ.ttf
+    - family: whoa
+      fonts:
+        - asset: assets/fonts/WhoaSaucePersonalUseBold-mLmV5.ttf
+
+
+
